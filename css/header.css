@@ -1,0 +1,50 @@
+/* Header Section */
+header {
+    width: 100%;
+    display: flex;
+    padding: .5rem 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 7.5 / 0.625;
+    z-index: 1;
+    border-bottom: .1rem solid #ffffff10;
+}
+
+header>.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header>.logo>span {
+    font-size: 3rem;
+    color: var(--accent);
+    padding-left: .2rem;
+    border-radius: .2rem;
+    animation: poppup 2s ease infinite;
+}
+
+header>nav {
+    display: flex;
+}
+
+header>nav>ul {
+    display: flex;
+    gap: 3rem;
+}
+
+header>nav>ul>li {
+    padding: .5rem;
+}
+
+header>nav>ul>li>a {
+    position: relative;
+    transition: all .3s ease-in-out;
+    border-bottom: .3rem solid transparent;
+}
+
+header>nav>ul>li>a:hover {
+    border-color: var(--secondary);
+}

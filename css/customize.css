@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+    width: 2rem;
+    background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--secondary), var(--accent));
+    border-radius: 1rem;
+    border: .8rem solid var(--primary);
+}
